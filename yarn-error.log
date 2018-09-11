@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/mr_wang/.nvm/versions/node/v8.9.1/bin/node /Users/mr_wang/.yarn/bin/yarn.js add nuxt
+
+PATH: 
+  /Users/mr_wang/.yarn/bin:/Users/mr_wang/.config/yarn/global/node_modules/.bin:/Users/mr_wang/.nvm/versions/node/v8.9.1/bin:/Users/mr_wang/Library/Android/sdk/platform-tools:/Users/mr_wang/Library/Android/sdk/tools:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/mr_wang/WebstormProjects/nuxt-demo/node_modules/@babel/traverse/node_modules/debug'
+
+npm manifest: 
+  {
+    "name": "nuxt-demo",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "MrErHu <wanglei_cs@163.com>",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "@nuxtjs/axios": "^5.0.0-rc.2",
+      "moment": "^2.22.2",
+      "nuxt": "^1.0.0",
+      "vue": "^2.5.17",
+      "vue-moment": "^4.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.2.1",
+      "eslint": "^4.15.0",
+      "eslint-friendly-formatter": "^3.0.0",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-vue": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
